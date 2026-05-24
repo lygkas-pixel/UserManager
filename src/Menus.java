@@ -25,11 +25,13 @@ public class Menus {
                     System.out.println(a.password);
                     System.out.println(a.email);
                 }
-                if (choice == 4) {
-                    break;
                 }
+            if (choice == 4) {
+                break;
             }
-        }
+            return;
+    }
+
     }
 }
 
