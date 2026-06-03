@@ -4,6 +4,8 @@ public class Menus {
 
     public void menu() {
 
+
+
             while (true) {
                 System.out.println("pakalw patiste 1 gia eisodo");
                 System.out.println("pakalw patiste 2 gia dhmioyrgia xrhsth");
@@ -30,7 +32,7 @@ public class Menus {
                 if (choice == 4) {
                     break;
                 }
-                return;
+
             }
 
     }

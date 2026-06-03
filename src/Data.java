@@ -38,7 +38,7 @@ public class Data {
 
         for (User u : Data.datas) {
             if (u.username.equals(username)) {
-                System.out.println("username arleady exist");
+                System.out.println("username already exist");
                 return true;
             }
 
