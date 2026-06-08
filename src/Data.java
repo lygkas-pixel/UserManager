@@ -44,6 +44,45 @@ public class Data {
 
 
         }
+
         return false;
     }
+        public boolean searchuserlog(String username) {                                                                        // elenxi an yparxei to username ston pinaka
+
+            for (User u : Data.datas) {
+                if (u.username.equals(username)) {
+                    return true;
+                }
+
+                else{
+                    System.out.println("false");
+
+                }
+
+            }
+            return false;
+    }
+    public boolean login (String username ){
+
+        for (User u :Data.datas){
+
+        if(u.username.equals(username)){
+
+            System.out.println("login succesfull");
+
+            return true;
+
+
+
+        }
+
+        else
+            System.out.println("login fail");
+
+    }
+        return false;
+
+
+}
+
 }

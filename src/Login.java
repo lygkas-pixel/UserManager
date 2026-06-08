@@ -8,9 +8,8 @@ public class Login {
         System.out.println("onoma xrhsth1");
         Scanner log = new Scanner(System.in);
        String username = log.nextLine();
-
-        Data serchlog = new Data();
-        serchlog.searchuser(username);
+       Data serchlog = new Data();                                                                                          // ftiaxnei antikimeno tis data kai kali thn synartisi gia to na vrei to username
+        serchlog.searchuserlog(username);
         System.out.println("password");
         Scanner pass = new Scanner(System.in);
        String logpass = pass.nextLine();
